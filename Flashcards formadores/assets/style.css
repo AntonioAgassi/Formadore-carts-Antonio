@@ -2,8 +2,8 @@
 
 :root{
   --text-color: #770808;
-  --card-front-color: #9e9e1c;
-  --card-back-color: #1b1f1b;
+  --card-front-color: rgb(158, 158, 28);
+  --card-back-color: rgb(21, 223, 21);
 }
 
 body {
@@ -74,10 +74,14 @@ backface-visibility: hidden;
 position: absolute;
 height: 100%;
 width: 100%;
+box-sizing: border-box;
 }
 
 .cartao__conteudo__resposta{
 transform: rotateY(180deg);
+background-color:rgba(48, 146, 48, 0,5);
+border:4px solid var(--card-back-color)
+
 }
 
 .cartao__conteudo h3{
